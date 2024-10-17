@@ -17,7 +17,7 @@ Install
 	go install -v github.com/Toton-dhibar/bugscanner-go@HEAD
 
 
-#### Add go bin to PATH
+#### Add go bin to PATHg
 
 **Bash**
 
