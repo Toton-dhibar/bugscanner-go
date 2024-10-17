@@ -1,4 +1,4 @@
-module github.com/aztecrabbit/bugscanner-go
+module github.com/Toton-dhibar/bugscanner-go
 
 go 1.18
 
