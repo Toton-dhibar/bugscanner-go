@@ -12,7 +12,7 @@ import (
 	"strings"
 	"time"
 
-	"github.com/aztecrabbit/bugscanner-go/pkg/queuescanner"
+	"github.com/Toton-dhibar/bugscanner-go/pkg/queuescanner"
 	"github.com/fatih/color"
 	"github.com/spf13/cobra"
 )
@@ -117,8 +117,8 @@ func scanDirect(c *queuescanner.Ctx, p *queuescanner.QueueScannerScanParams) {
 			switch hServerLower {
 			case "cloudflare":
 				resColor = colorG1
-			case "akamaighost":
-				resColor = colorY1
+			case "varnish":
+				resColor = colorG1
 			case "cloudfront":
 				resColor = colorC1
 			default:
